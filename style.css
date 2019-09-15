@@ -20,24 +20,29 @@ h1, p {
 section  {
     width: 50%;
     float: left;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 aside {
     float: left;
     height: 270px;
     width: 40%;
-    margin: 20px;
-}
+    margin-bottom: 20px;
+}  
 header {
     width: 100%;
     padding: 20px;
-    margin: 20px;
+    margin-bottom: 20px;
+    
 }
 nav {
     height: 20px;
     padding: 20px;
-    margin: 20px
-}
-footer {
+    margin-bottom: 20px;
+}  
+footer  {
+    position: absolute;
+    bottom: 0;
     width: 100%;
+    padding: 20px;
+    margin-top: 20px;
 }
